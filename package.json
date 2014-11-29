@@ -1,0 +1,29 @@
+{
+  "name": "johnny-five-motors",
+  "version": "1.0.0",
+  "description": "Spiking the motor functionality with Arduino and the johnny five library.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mala23/johnny-five-motors.git"
+  },
+  "keywords": [
+    "Arduino",
+    "Robot",
+    "Johnny",
+    "Five",
+    "Node"
+  ],
+  "author": "mala23",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mala23/johnny-five-motors/issues"
+  },
+  "homepage": "https://github.com/mala23/johnny-five-motors",
+  "dependencies": {
+    "johnny-five": "^0.8.29"
+  }
+}
