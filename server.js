@@ -1,18 +1,21 @@
-var five = require("johnny-five"),
-      board, motor, led;
+var five = require("johnny-five");
 
 board = new five.Board();
 
 board.on("ready", function() {
  
-  motor = new five.Motor({
+  motor01 = new five.Motor( {
     pin: 3
   });
+
+  motor02 = new five.Motor( {
+    pin: 5
+  });
+
   
-  board.repl.inject({
-    motor: motor
+  board.repl.inject( {
+    motor01: motor01,
+    motor02: motor02
   });
  
-  motor.start();
-
 });
