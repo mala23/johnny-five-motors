@@ -16,12 +16,15 @@ board.on("ready", function() {
     pin: 6
   });
 
-  
+  motor04 = new five.Motor( {
+    pin: 9
+  });
   
   board.repl.inject( {
     motor01: motor01,
     motor02: motor02,
-    motor03: motor03
+    motor03: motor03,
+    motor04: motor04
   });
  
 });
