@@ -25,5 +25,9 @@
   "homepage": "https://github.com/mala23/johnny-five-motors",
   "dependencies": {
     "johnny-five": "^0.8.29"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   }
 }
